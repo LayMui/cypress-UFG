@@ -1,0 +1,16 @@
+{
+  "name": "hackathon-cypress",
+  "version": "1.0.0",
+  "description": "For Applitools Hackathon using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
+    "cypress:open": "cypress open --browser chrome"
+  },
+  "author": "LayMui",
+  "license": "ISC",
+  "devDependencies": {
+    "@applitools/eyes-cypress": "latest",
+    "cypress": "latest"
+  }
+}
