@@ -2,7 +2,7 @@
 describe("AppTest", () => {
 
     beforeEach(() => {
-        cy.visit('/gridHackathonV1.html')   
+        cy.visit('/gridHackathonV2.html')   
     });
 
     afterEach(() => {

@@ -12,7 +12,10 @@
     * Windows: set APPLITOOLS_API_KEY=<your_key>
 4. run `npm install`
 5. run `npx eyes-setup`
-6. run `npm test`
+To run in tradtional method
+6a. run `npm test:traditional`
+To run in modern method using UFG
+6b. run `npm test:modern`
 
 
 ### Add Applitools to the existing project

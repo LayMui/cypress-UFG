@@ -4,8 +4,9 @@
   "description": "For Applitools Hackathon using Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
-    "cypress:open": "cypress open --browser chrome"
+    "test:modern": "npx cypress run --browser chrome --spec 'cypress/integration/examples/ultraFastGrid.spec.js'",
+    "test:traditional": "npx cypress run --browser chrome --spec 'cypress/integration/examples/dynamic.spec.js'",
+   "cypress:open": "cypress open --browser chrome"
   },
   "author": "LayMui",
   "license": "ISC",
